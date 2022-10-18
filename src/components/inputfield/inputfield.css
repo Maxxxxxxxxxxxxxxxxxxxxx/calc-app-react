@@ -1,0 +1,23 @@
+.input_container {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 3rem;
+}
+
+.input_container input {
+  background-color: #3b3b3b;
+  border: blue 2px solid;
+  color: white;
+  text-align: right;
+  width: 100%;
+}
+
+.input_container input:focus {
+  outline: none;
+}
+/*# sourceMappingURL=inputfield.css.map */
